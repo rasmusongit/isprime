@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
+
 int notprime(int d)
 {
 	printf("%d is not prime\n",d);
@@ -33,7 +34,7 @@ int main(int argc, char** argv)
 		notprime(input);
 		return 0;
 	}
-	for(int i=3; i< input/2; i++)
+	for(int i=3; i< pow((float) input,0.5); i++)
 	{
 		if(input%i==0)
 		{

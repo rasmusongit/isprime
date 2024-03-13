@@ -1,5 +1,5 @@
 isprime : isprime.c
-	gcc -lm -Wall $< -o $@
+	gcc -Wall $< -lm -o $@
 
 clean:
 	$(RM) isprime
