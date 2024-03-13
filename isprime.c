@@ -39,7 +39,7 @@ int main(int argc, char** argv)
 		notprime(input);
 		return 0;
 	}
-	for(int i=3; i< pow((float) input,0.5); i++)
+	for(int i=3; i< pow((float) input,0.5); i+=2)
 	{
 		if(input%i==0)
 		{
