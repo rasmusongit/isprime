@@ -29,6 +29,11 @@ int main(int argc, char** argv)
 		notprime(input);
 		return 0;
 	}
+	if(input==2)
+	{
+		yesprime(input);
+		return 0;
+	}
 	if(input%2==0)
 	{
 		notprime(input);
